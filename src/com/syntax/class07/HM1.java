@@ -36,15 +36,12 @@ public class HM1 {
 //		
 //		
 		String str1 = "Sunday";
-		
-		for(int i = str1.length()-1; i>=0; i--) {
+
+		for (int i = str1.length() - 1; i >= 0; i--) {
 			char letter = str1.charAt(i);
 			System.out.print(letter);
-			
-			
+
 		}
-		
-	
 
 	}
 

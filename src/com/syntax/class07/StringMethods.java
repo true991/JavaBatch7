@@ -8,6 +8,8 @@ public class StringMethods {
 		
 		String name1 = new String();
 		
+		System.out.println(name + name1);
+		
 		
 		//methods of String class
 		String school = "Syntax";
@@ -100,7 +102,7 @@ public class StringMethods {
 		System.out.println(message.substring(4));
 		System.out.println(message.substring(9, 12));
 		
-		int [] array = new int[10];
+		
 		
 		
 		
