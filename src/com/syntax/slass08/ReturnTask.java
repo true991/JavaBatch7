@@ -1,6 +1,7 @@
 package com.syntax.slass08;
 
 public class ReturnTask {
+
 	public static void main(String[] args) {
 		ReturnData x = new ReturnData();
 
@@ -15,6 +16,23 @@ public class ReturnTask {
 		
 		String d = x.upper("hello");
 		System.out.println(d);
+
+		System.out.println(x.eMail("Harry", "Potter", "gmail.com"));
+
+		System.out.println(x.isPrime(1));
+
+		System.out.println(x.grade(2));
+
+		int[] arr = { 12, 22, 44, 11 };
+
+		System.out.println(x.largestFromArray(arr));
+		
+		String [] qwerty = x.getArray("Hello How Are You");
+		
+		for (String str : qwerty) {
+			System.out.println(str);
+		}
+			
 
 	}
 
