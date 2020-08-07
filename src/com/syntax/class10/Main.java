@@ -1,27 +1,37 @@
 package com.syntax.class10;
 
+import java.util.ArrayList;
+
 class Main {
-	
-	
-	public static final double avgElements(int[] arr) {
-		
-		double a = 0;
-		
-		for(double b : arr) {
-			a += b;
-		}
-		double x = a/ arr.length;
-		return x;
-	}
 
-	
-	
-	
-	
-	
 	public static void main(String[] args) {
-		int[] a = {2,7,3,8,4};
-		System.out.println(avgElements(a)); //should print 4.8
-	}
 
+		ArrayList<Integer> prime = new ArrayList<>();
+
+		int factor = 0;
+
+		for (int i = 2; i < 101; i++) {
+
+			factor = 0;
+
+			for (int j = 1; j <= i; j++) {
+
+				if (i % j == 0) {
+
+					factor++;
+
+				}
+
+			}
+
+			if (factor == 2) {
+
+				prime.add(i);
+			}
+
+		}
+
+		System.out.println(prime);
+
+	}
 }
