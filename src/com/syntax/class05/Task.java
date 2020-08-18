@@ -25,6 +25,8 @@ public class Task {
 			}
 		} while (t <= 10);
 
+		scan.close();
+
 	}
 
 }

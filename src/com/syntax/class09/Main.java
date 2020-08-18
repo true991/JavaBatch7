@@ -5,8 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		int[][] a = { { 1, 2, 3, 4 }, { 4, 5, 6, 7 }, { 1, 3, 5, 7 } };
 
-		Main x = new Main();
-		int[][] b = x.arr(a);
+		int[][] b = Main.arr(a);
 
 		for (int i = 0; i < b.length; i++) {
 			for (int k = 0; k < b[i].length; k++) {

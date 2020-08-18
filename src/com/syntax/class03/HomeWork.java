@@ -27,5 +27,7 @@ public class HomeWork {
 	  	}
 	  	
 	  	 System.out.println("Your grade is " + score);
+	  	 
+	  	 scan.close();
   }
 }

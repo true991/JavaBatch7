@@ -9,11 +9,11 @@ public class SwitchIntro {
 		System.out.println("Where are you from?");
 		String country = scan.nextLine();
 		String lang;
-		
+
 		switch (country.toLowerCase()) {
 		case "us":
 		case "england":
-		case "australia":	
+		case "australia":
 			lang = "English";
 			break;
 		case "spain":
@@ -22,11 +22,11 @@ public class SwitchIntro {
 			break;
 		case "russia":
 		case "ukraine":
-		case "belarussia":	
+		case "belarussia":
 			lang = "Russian";
 			break;
 		case "germany":
-		case "austria":	
+		case "austria":
 			lang = "Deutch";
 			break;
 		case "china":
@@ -36,8 +36,10 @@ public class SwitchIntro {
 			lang = "JAVA";
 			break;
 		default:
-			lang = "Unknown";		
+			lang = "Unknown";
 		}
 		System.out.println("You speak " + lang);
+
+		scan.close();
 	}
 }

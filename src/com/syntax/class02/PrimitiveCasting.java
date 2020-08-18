@@ -18,6 +18,7 @@ public class PrimitiveCasting {
 		
 		int number = (int) l2;
 		System.out.println(number);
+		System.out.println(l1);
 		
 		
 		

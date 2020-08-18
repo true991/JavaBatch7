@@ -8,10 +8,10 @@ public class InterviewQuestions {
 //		Write a java program to check whether a given number is prime or not?
 
 //		Write a Java Program to print the first 10 numbers of Fibonacci series.
-
-		int[] fib = new int[10];
-		
-		int x = 0;
+//
+//		int[] fib = new int[10];
+//		
+//		int x = 0;
 
 //??????		for (int i = 0; i<fib.length; i++) {
 //			if (i > 1) {

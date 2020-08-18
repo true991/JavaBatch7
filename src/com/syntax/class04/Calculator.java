@@ -11,26 +11,28 @@ public class Calculator {
 		char x = scan.next().charAt(0);
 		double b = scan.nextDouble();
 		double sum = 0;
-		
-		switch(x) {
-		
+
+		switch (x) {
+
 		case '+':
-			sum = a+b;
+			sum = a + b;
 			break;
 		case '-':
-			sum = a-b;
+			sum = a - b;
 			break;
 		case '*':
-			sum = a*b;
+			sum = a * b;
 			break;
 		case '/':
-			sum = a/b;
-			break;	
+			sum = a / b;
+			break;
 		default:
 			sum = 0;
 		}
 		System.err.println(sum);
-		
+
+		scan.close();
+
 	}
 
 }

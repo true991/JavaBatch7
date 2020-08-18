@@ -3,6 +3,7 @@ package com.syntax.class07;
 public class Recap {
 	public static void main(String[] args) {
 		String name = "Mahammad";
+		System.out.println(name);
 
 		for (int i = 1; i <= 5; i++) {
 			System.out.println("Today is JAVA class;");

@@ -19,6 +19,8 @@ public class PasswordTask {
 		System.out.println("Enter a password");
 		String pass = scan.nextLine();
 		String expectedPass = "HelloWorld";
+		
+		System.out.println(expectedPass);
 
 		while (pass.isEmpty()) {
 			System.out.println("Password cannot be empty");
@@ -52,6 +54,8 @@ public class PasswordTask {
 
 			}
 		}
+		
+		scan.close();
 	}
 }
 

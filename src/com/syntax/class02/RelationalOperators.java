@@ -27,6 +27,7 @@ public class RelationalOperators {
 
 		int num = 78;
 		boolean result = num > 100;
+		System.out.println(result);
 		System.out.println("More than 100?");
 		if (num > 100) {
 			System.out.println("My number is large");

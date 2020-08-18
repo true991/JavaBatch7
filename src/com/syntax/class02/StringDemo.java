@@ -13,7 +13,7 @@ public class StringDemo {
 		
 		String price = "100k USD";
 		
-		/*System.out.println(name);
+		System.out.println(name);
 		System.out.println(brand);
 		System.out.println(color);
 		System.out.println(year);
@@ -24,7 +24,7 @@ public class StringDemo {
 		System.out.println(color);
 		
 		System.out.println("I love my " + color + brand);
-		*/
+		
 		
 		String tag = "Alex";
 			

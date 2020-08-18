@@ -62,6 +62,8 @@ public class HomeWorkBreakAndContinue {
 			}
 			
 		}
+		
+		scan.close();
 
 	}
 

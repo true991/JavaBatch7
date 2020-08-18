@@ -1,7 +1,5 @@
 package com.syntax.class07;
 
-import java.util.Scanner;
-
 public class HM1 {
 	public static void main(String[] args) {
 		String str = "aaaWaaa";

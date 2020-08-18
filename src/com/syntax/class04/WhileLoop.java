@@ -31,8 +31,11 @@ public class WhileLoop {
 		while(i<=5) {
 			System.out.println("Enter your name");
 			String name = scan.nextLine();
+			System.out.println(name);
 			i++;
 		}
+		
+		scan.close();
 		
 		
 

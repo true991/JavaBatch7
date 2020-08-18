@@ -10,6 +10,8 @@ public class ArrayIntroduction {
 		b = 15;
 		c = 20;
 		d = 25;
+		
+		System.out.println(a + "" + b + c + d);
 
 		// Declaring
 		int[] name = new int[4]; //index from 0 to 3
@@ -27,7 +29,7 @@ public class ArrayIntroduction {
 		System.out.println(element);
 		
 		String[] carArray; //preferred way
-		String carArray1;  //Works but not preferred
+		// String carArray1;  Works but not preferred
 		
 		carArray = new String[3]; // index 0,1,2
 		carArray[0] = "BWM";
@@ -43,6 +45,7 @@ public class ArrayIntroduction {
 		bruh[2] = 'C';
 		bruh[3] = 'D';
 		bruh[4] = 'E';
+		
 		
 		
 
